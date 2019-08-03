@@ -3,7 +3,7 @@ import path from 'path';
 
 function init(data) {
     const { spawn } = child_process;
-    const pythonFile = 'python.exe';
+    const pythonFile = 'python';
     const scriptFile = path.join(__dirname, 'network_scripts', 'main.py');
 
     // console.log(pythonFile);
